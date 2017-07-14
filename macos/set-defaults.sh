@@ -20,4 +20,15 @@ chflags nohidden ~/Library
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
+# Disable Natural Scrolling
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
+# Enable Scroll Bars in Finder
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
+# Require Password after ScreenSaver
+defaults write com.apple.screensaver askForPassword -int 1
+
+# Tap-Clicking Touchpad
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
