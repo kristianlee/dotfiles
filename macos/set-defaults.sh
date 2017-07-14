@@ -32,3 +32,9 @@ defaults write com.apple.screensaver askForPassword -int 1
 # Tap-Clicking Touchpad
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+#show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
+# Save to disk (not to iCloud) by default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
