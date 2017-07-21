@@ -1,4 +1,8 @@
 syntax on
 
+" Make § the esc key for MBP keyboard
+inoremap § <esc>
+
+
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
