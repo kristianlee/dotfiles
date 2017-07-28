@@ -51,6 +51,7 @@ brew "docker"
 brew "docker-compose"
 brew "awscli"
 brew "azure-cli"
+brew "autodmg"
 
 #work safe apps
 cask 'firefox'
@@ -59,6 +60,7 @@ cask 'handbrake'
 cask 'slack'
 cask 'vlc'
 cask 'whatsapp'
+cask 'tunnelblick'
 
 #home apps
 cask 'steam'
