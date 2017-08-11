@@ -31,6 +31,7 @@ brew 'wget'
 brew "bash-completion"
 brew "ctags"
 brew "graphviz"
+brew "git"
 
 #coding tools / runtimes
 brew 'go'
@@ -51,7 +52,7 @@ brew "docker"
 brew "docker-compose"
 brew "awscli"
 brew "azure-cli"
-brew "autodmg"
+#brew "autodmg"
 
 #work safe apps
 cask 'firefox'
@@ -63,14 +64,14 @@ cask 'whatsapp'
 cask 'tunnelblick'
 
 #home apps
-cask 'steam'
-cask 'transmission'
-cask 'spotify-notifications'
-cask 'skype'
-cask 'private-internet-access'
-cask 'dropbox'
-cask 'crashplan'
-cask 'calibre'
+#cask 'steam'
+#cask 'transmission'
+#cask 'spotify-notifications'
+#cask 'skype'
+#cask 'private-internet-access'
+#cask 'dropbox'
+#cask 'crashplan'
+#cask 'calibre'
 
 #mac app store stuff
 mas "1Password", id: 443987910
