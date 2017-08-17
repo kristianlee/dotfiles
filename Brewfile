@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap "homebrew/bundle"
 tap "homebrew/core"
+tap "caskroom/cask"
 
 #brew 'coreutils'
 #brew 'imagemagick'
@@ -44,6 +45,7 @@ cask 'vagrant'
 cask 'sublime-text'
 cask 'postman'
 cask 'npm'
+cask 'powershell'
 
 #config / cloud management
 brew "ansible"
