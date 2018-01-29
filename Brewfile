@@ -31,6 +31,7 @@ brew "gnupg"
 brew "imagemagick"
 brew "pkg-config"
 brew "postgresql"
+cask "pgadmin4"
 brew "redis"
 cask "spectacle"
 
@@ -44,10 +45,10 @@ cask "iterm2"
 cask "vagrant"
 cask "sublime-text"
 cask "postman"
-cask "npm"
 cask "powershell"
 brew "python3"
 brew "python"
+cask "visual-studio-code"
 
 #config / cloud management
 brew "ansible"
@@ -59,12 +60,13 @@ brew "azure-cli"
 
 #work safe apps
 cask "firefox"
-cask "google-chrome"
+#cask "google-chrome"
 cask "handbrake"
 cask "slack"
 cask "vlc"
 cask "whatsapp"
 cask "tunnelblick"
+cask "alfred"
 
 #home apps
 #cask "steam"
@@ -73,7 +75,7 @@ cask "tunnelblick"
 #cask "skype"
 #cask "private-internet-access"
 cask "dropbox"
-#cask "calibre"
+cask "calibre"
 
 #mac app store stuff
 mas "1Password", id: 443987910
