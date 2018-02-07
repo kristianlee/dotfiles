@@ -6,3 +6,16 @@ inoremap § <esc>
 
 " Wrap gitcommit file types at the appropriate length
 filetype indent plugin on
+
+set number            " show line number
+set ruler             " show row, col in statusbar
+set nowrap            " disable line wrap
+set showmatch         " show other bracket
+set autoindent        "
+set tabstop=2
+set softtabstop=2     " tab size
+set shiftwidth=2      " indentation size
+set expandtab         " use spaces for tab
+set visualbell
+
+cmap w!! %!sudo tee > /dev/null
