@@ -39,13 +39,13 @@ brew "azure-cli"
 
 #work safe apps
 cask "firefox"
-#cask "google-chrome"
+cask "google-chrome"
 cask "handbrake"
-#cask "slack"
+cask "slack"
 cask "vlc"
 cask "whatsapp"
 cask "tunnelblick"
-#cask "alfred"
+cask "alfred"
 
 #home apps
 #cask "steam"
