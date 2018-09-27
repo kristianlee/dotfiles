@@ -28,7 +28,6 @@ cask "atom"
 cask "iterm2"
 cask "vagrant"
 cask "postman"
-brew "python3"
 brew "python"
 cask "visual-studio-code"
 
@@ -43,7 +42,6 @@ cask "google-chrome"
 cask "handbrake"
 cask "slack"
 cask "vlc"
-cask "whatsapp"
 cask "tunnelblick"
 cask "alfred"
 
@@ -54,7 +52,7 @@ cask "alfred"
 #cask "skype"
 #cask "private-internet-access"
 #cask "dropbox"
-cask "calibre"
+#cask "calibre"
 
 #mac app store stuff
 mas "1Password", id: 443987910
