@@ -2,7 +2,6 @@ cask_args appdir: "/Applications"
 
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "homebrew/cask-cask"
 tap "drone/drone"
 
 #core bits
@@ -46,11 +45,9 @@ brew "oniguruma"
 brew "pandoc"
 brew "pcre2"
 brew "pipenv"
-brew "protovend"
 brew "python"
 brew "python@2"
 brew "shellcheck"
-brew "shimmer"
 cask "atom"
 cask "iterm2"
 cask "postman"
@@ -67,13 +64,7 @@ brew "stern"
 brew "terraform"
 
 #skyscanner
-brew "artifactory-cli-login"
-brew "aws-adfs-cli-login"
 brew "drone"
-brew "mshell-cut"
-brew "mshell-tools"
-brew "skyscanner-bundle"
-
 
 #work safe apps
 cask "alfred"
