@@ -13,7 +13,7 @@ alias kubectl="kubecolor"
 alias tf="terraform"
 
 function _hid() {
-  /usr/local/bin/hidapitester --vidpid 046D/C900 --open --length 20 --send-output $1
+  hidapitester --vidpid 046D/C900 --open --length 20 --send-output $1
 }
 # 2/17/22 Litra Glow aliases from https://github.com/kharyam/litra-driver/issues/13
 function light() {
