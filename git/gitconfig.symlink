@@ -50,3 +50,5 @@
 	whitespace = red reverse
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
