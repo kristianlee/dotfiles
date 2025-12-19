@@ -54,3 +54,9 @@ function warm() {
 function coldest() {
   _hid 0x11,0xff,0x04,0x9c,25,100
 }
+alias tg="terragrunt"
+
+alias tdel="find ./ -type d -name ".terraform" -exec rm -rf {} +"
+alias tgdel="find ./ -type d -name ".terragrunt-cache" -exec rm -rf {} +"
+
+alias gdef="git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'"

@@ -29,8 +29,8 @@ setopt HIST_IGNORE_SPACE  # prepend commands with a space to be ignored in histo
 #   like: git comm-[tab]
 setopt complete_aliases
 
-bindkey '^[^[[D' backward-word
-bindkey '^[^[[C' forward-word
+bindkey '\e[1;3D' backward-word # alt-left arrow in iTerm with "Natural Text Editing" preset
+bindkey '\e[1;3C' forward-word # alt-right arrow in iTerm with "Natural Text Editing" preset
 bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
